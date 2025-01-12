@@ -1,0 +1,18 @@
+ #programa para validar uma expressão matemática em relação ao parênteses curvos e retos
+def Validação(expressão):
+    expressão=input("insira uma expressão matemática")
+    contar_parênteses_fechados=0
+    contar_parênteses_abertos=contar_parênteses_abertos-1
+    for l in expressão:
+      if l=="(" or l=="[":
+       if contar_parênteses_abertos=="":
+        return False
+       último=contar_parênteses_abertos[len(contar_parênteses_abertos)-1]
+       if (último=="(" and l==")" or último=="[" and l=="]"):
+        return True
+#limpar a stringe
+
+       for i in range(len(temp-1)):
+         contar_parênteses_abertos=contar_parênteses_abertos+temp[i]
+       else:
+         return False

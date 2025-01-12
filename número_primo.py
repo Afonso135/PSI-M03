@@ -11,6 +11,7 @@ if primo(5)==True:
     print("o nº 5 é primo")
 else:
     print("o nº 5 não é primo")
+    
 
 
 

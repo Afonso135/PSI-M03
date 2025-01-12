@@ -27,17 +27,3 @@ def médiaD(x,y,z):
 def main():
      print(médiaC()) #chamar a função
      print (médiaD()) # chamar a função
-
-             
-
-
-    
-
-
-
-
-    
-
-
-
-

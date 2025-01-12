@@ -1,0 +1,11 @@
+def quadrado(n):
+    n=int(input("insira um número"))
+    nQ=n**2
+    return nQ
+
+def main():
+n=int(input("insira um número"))
+print(f"o quadrado de"{n}é {nQ}")
+
+if_name_=="_main_":
+main()  
