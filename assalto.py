@@ -14,8 +14,7 @@ def lucro(dinheiro_roubado):
     print("Os brutamontes vão receber"(dinheiro_brutamontes.round(2))"€")
     print("O condutor vai recber"(dinheiro_condutor.round(2))"€")
 
-_
-    """
+ """
     função para calcular e rdetornar o valor de juros que cada um paga por mês
     e os juros acumulados ao longo de 10 anos.
     """
